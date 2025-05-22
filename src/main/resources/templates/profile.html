@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{template.html}">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil</title>
+</head>
+<body>
+<div layout:fragment="content">
+    <div class="container mt-5">
+        <h2>Bienvenue dans votre profil <br><span th:text="${username}">Nom</span></h2>
+    </div>
+</div>
+</body>
+</html>
