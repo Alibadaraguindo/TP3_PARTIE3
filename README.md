@@ -2,11 +2,11 @@
 # GUINDO BADARA ALIOU MSDIA FSM
 ### MASSAR 2100000017
 
-# TP 3 PARTIE 2
+# TP 3 PARTIE 3
 
 
 ## Introduction
-Dans le cadre de ce projet, nous avons mis en place un système complet d'authentification et d'autorisation basé sur Spring Security au sein d'une application développée avec Spring Boot.
+Dans cette troisieme partie , nous avons mis en place un système complet d'authentification et d'autorisation basé sur Spring Security au sein d'une application développée avec Spring Boot.
 L'objectif principal était de sécuriser l'accès aux différentes fonctionnalités de l'application selon les rôles des utilisateurs (USER, ADMIN), tout en assurant une expérience utilisateur fluide grâce à des interfaces personnalisées.
 
 Ce rapport retrace l'ensemble des étapes réalisées : ajout des dépendances, configuration de la sécurité en mémoire et via base de données, création des entités utilisateur/rôle, personnalisation des pages (login, erreur 403, profil), ainsi que la mise en œuvre d'une sécurité fine au niveau des méthodes grâce aux annotations @PreAuthorize.
